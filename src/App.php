@@ -5,8 +5,12 @@ namespace OnlyFoolhardyScales;
 class App {
   public static function run() {
     $db = static::db();
+
     echo static::getDbVersion();
+    echo nl2br(PHP_EOL);
+
     echo static::getAuthorOf1984();
+    echo nl2br(PHP_EOL);
   }
 
   private static function db() {
