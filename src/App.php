@@ -10,7 +10,7 @@ class App {
   }
 
   private static function db() {
-    $dsn = $_ENV['ONLY_FOOLHARDY_SCALES_DATABASE_DSN'];
+    $dsn = getenv('ONLY_FOOLHARDY_SCALES_DATABASE_DSN');
     $db = new \PDO($dsn);
     return $db;
   }

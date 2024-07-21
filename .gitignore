@@ -4,6 +4,3 @@ composer.phar
 
 # Replit config
 .config/
-
-# dotenv
-.env
