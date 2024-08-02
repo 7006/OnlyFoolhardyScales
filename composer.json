@@ -2,7 +2,9 @@
     "require": {
         "php": ">=8.2",
         "ext-pdo": "*",
-        "ext-pdo_pgsql": "*"
+        "ext-pdo_pgsql": "*",
+        "voku/stringy": "~6.0",
+        "php-collective/decimal-object": "^1.2"
     },
     "autoload": {
         "psr-4": {
